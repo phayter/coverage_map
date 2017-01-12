@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		
+		html, body {
+		    margin: 0;
+		    padding: 0;
+		    border: none;
+		    height: 100%;
+		}		
+		
+		
+	</style>    
+    
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCftXGxtEPiwg9uTgh0mUFdn4rfNS5PGN8&libraries=visualization">
+    </script>
+    
+    <script type="text/javascript">	
+    var centerLatLng = new google.maps.LatLng(53.498366,-113.420392);
+    var mapOptions = {
+      zoom: getMaxZoomAtLatLng,
+      center: {lat: 53.498, lng: -113.420392},
+      mapTypeId: google.maps.MapTypeId.TERRAIN
+    }
+	var map = null;
+	
+	function initialize() {	    	    
+		var divElem = document.getElementById("map_canvas");
+	    map = new google.maps.Map(divElem, mapOptions);	    
+
+		var kmlLayer = new google.maps.KmlLayer('https://docs.google.com/uc?export=download&id=0B4JvqsACwHKzSk5UM2l3WnBzeFk');
+		kmlLayer.setMap(map);
+		
+		// adding multiple layers did not work well, so combine in Google Earth. 
+		// Add all layers in a folder > Right Click > Save As... ?
+		
+	}
+
+    </script>    
+  </head>
+  
+  <body onload="initialize()">  	
+    <div id="map_canvas" style="width:100%; height:100%;"></div>
+  </body>  
+</html>
