@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Test</name>
+	<open>1</open>
+	<GroundOverlay>
+		<name>Untitled Image Overlay</name>
+		<Icon>
+			<href>files/fuckthisthing.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<gx:LatLonQuad>
+			<coordinates>
+				-112.7801596855206,55.34544285482554,0 -109.1305827222194,55.18370269235023,0 -108.8756979871412,57.68290653958576,0 -112.7289441067269,57.77501729970565,0 
+			</coordinates>
+		</gx:LatLonQuad>
+	</GroundOverlay>
+</Folder>
+</kml>
