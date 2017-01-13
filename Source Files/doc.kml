@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>UHF</name>
+	<open>1</open>
+	<Folder>
+		<name>Fort McKay</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Fort McKay Mobile</name>
+			<color>8fffffff</color>
+			<drawOrder>3</drawOrder>
+			<Icon>
+				<href>files/locl2.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>58.497377</north>
+				<south>55.788934</south>
+				<east>-109.040644</east>
+				<west>-114.189662</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Edmonton CWB</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Edmonton CWB Mobile</name>
+			<color>8fffffff</color>
+			<drawOrder>3</drawOrder>
+			<Icon>
+				<href>files/locl2_03.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>54.428943</north>
+				<south>52.633009</south>
+				<east>-111.958668</east>
+				<west>-115.038567</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Suncor Gate</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Suncor Gate Mobile</name>
+			<color>8fffffff</color>
+			<drawOrder>3</drawOrder>
+			<Icon>
+				<href>files/locl2_04.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>58.295409</north>
+				<south>55.591583</south>
+				<east>-108.932425</east>
+				<west>-114.051057</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Gregoire</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Gregoire Mobile</name>
+			<color>8fffffff</color>
+			<drawOrder>3</drawOrder>
+			<Icon>
+				<href>files/locl2_05.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>57.560056</north>
+				<south>55.761283</south>
+				<east>-109.666094</east>
+				<west>-113.007443</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Cheecham</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Cheecham Mobile</name>
+			<color>8fffffff</color>
+			<drawOrder>3</drawOrder>
+			<Icon>
+				<href>files/locl2_06.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>57.15278</north>
+				<south>55.348427</south>
+				<east>-109.27068</east>
+				<west>-112.576407</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Chard</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Chard Mobile</name>
+			<visibility>0</visibility>
+			<color>8fffffff</color>
+			<drawOrder>3</drawOrder>
+			<Icon>
+				<href>files/locl2_01.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>56.836927</north>
+				<south>55.02971</south>
+				<east>-109.176116</east>
+				<west>-112.451866</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</Folder>
+</kml>
